@@ -27,15 +27,9 @@ The design is inspired by eco-friendly and plant-based themes, reflecting a mini
 
 ---
 
-## 📸 Preview
-
-> *(Add your website screenshot or preview image here — optional)*
-
----
-
 ## 🔗 Live Demo & Repo
 
-- 🌐 **Live Website:** [Your Website Link Here](#)  
+- 🌐 **Live Website:** [Your Website Link Here](https://jacksparrow7-coder.github.io/greendem-emc/)  
 - 💾 **GitHub Repository:** [Your Repo Link Here](https://github.com/Jacksparrow7-coder/greendem-emc.git)
 
 ---
