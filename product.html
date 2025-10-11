@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAV SECTION -->
+<header>
+    <nav class="sticky top-0 z-[100] flex items-center justify-between p-3 bg-green-200 shadow-xl">
+      <h1 class="text-2xl font-bold">Greendem</h1>
+      <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none"
+        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="h-7 w-7 md:hidden">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+      <ul class="hidden gap-5 md:flex">
+        <li><a href="./index.html" class="hover:text-black hover:underline">Home</a></li>
+        <li><a href="./product.html" class="hover:text-black hover:underline">Products</a></li>
+        <li><a href="./contact.html" class="hover:text-black hover:underline">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<!-- product SECTION -->
+    <section class="p-4 text-center">
+        <h1 class="mt-5 text-3xl font-bold text-center">Our Products</h1>
+        <input id="search" style="width: 80%;" placeholder="Search for a Product...." type="text" class="p-2 m-3 border border-black">
+        <div id="product-container" class="grid grid-cols-2 col-span-2 gap-5 mt-5 md:grid-cols-4">
+            <div class="text-center">
+                <img class="inline transition transform hover:-translate-y-2 hover:shadow-xl"
+                    src="./images/bestseller_1.jpg">
+                <h1>Rose Plant</h1>
+                <p>$20</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transition transform hover:-translate-y-2 hover:shadow-xl"
+                    src="./images/bestseller_2.jpg">
+                <h1>Lily Plant</h1>
+                <p>$20</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transition transform hover:-translate-y-2 hover:shadow-xl"
+                    src="./images/bestseller_3.png">
+                <h1>Hibiscus Rose</h1>
+                <p>$20</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transition transform hover:-translate-y-2 hover:shadow-xl"
+                    src="./images/bestseller_4.png">
+                <h1>New pet plant</h1>
+                <p>$20</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transition transform hover:-translate-y-2 hover:shadow-xl"
+                    src="./images/bestseller_2.jpg">
+                <h1>Lily Plant</h1>
+                <p>$20</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transition transform hover:-translate-y-2 hover:shadow-xl"
+                    src="./images/bestseller_1.jpg">
+                <h1>Rose Plant</h1>
+                <p>$20</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transition transform hover:-translate-y-2 hover:shadow-xl"
+                    src="./images/bestseller_2.jpg">
+                <h1>Lily Plant</h1>
+                <p>$20</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transition transform hover:-translate-y-2 hover:shadow-xl"
+                    src="./images/bestseller_3.png">
+                <h1>Hibiscus Rose</h1>
+                <p>$20</p>
+            </div>
+        </div>
+    </section>
+<!--Footer-->
+    <footer>
+    <section class="flex flex-col gap-5 p-10 bg-green-200">
+      <h1 class="text-4xl font-bold">Greenden</h1>
+      <p>
+       At Greendem, we bring the beauty of nature right to your home. Explore our wide range of plants and flowers, enjoy fast delivery, and let greenery brighten every corner of your space. Join our community and make your home a breath of fresh air.
+      </p>
+      <p>&copy;2025 Greenday.com</p>
+    </section>
+    </footer>
+ </body>
+</html>
