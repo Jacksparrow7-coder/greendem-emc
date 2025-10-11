@@ -25,9 +25,9 @@ Tailwind CSS	Styling & responsiveness
 
 🔗 Live Demo & Repo
 
-🌐 Live Website: https://jacksparrow7-coder.github.io/greendem-emc/
+🌐 Live Website: [Website Link Here](https://jacksparrow7-coder.github.io/greendem-emc/)
 
-💾 GitHub Repository: [Your Repo Link Here](https://github.com/Jacksparrow7-coder/greendem-emc.git)
+💾 GitHub Repository: [Repo Link Here](https://github.com/Jacksparrow7-coder/greendem-emc.git)
 
 🎯 Learning Outcome
 
