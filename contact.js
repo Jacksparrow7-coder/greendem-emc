@@ -8,5 +8,5 @@ menuBtn.addEventListener("click", function() {
 });
 
 crossBtn.addEventListener("click", function() {
-    sidenav.style.right = "-50%";
+    sidenav.style.right = "-60%";
 });
